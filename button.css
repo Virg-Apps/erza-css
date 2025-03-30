@@ -1,0 +1,34 @@
+button {
+    font-size: 1rem;
+}
+.button {
+    display: flex;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    border: 1px solid;
+}
+.button:hover {
+    cursor: pointer;
+}
+.button.primary {
+    color: white;
+}
+.button.primary.outlined {
+    background-color: transparent;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+.button.primary:not(.outlined):hover {
+    transition: background-color 0.3s ease;
+}
+.button.primary.outlined:hover {
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+a.button {
+    text-decoration: none;
+}
+.button svg + span, .button img + span {
+    margin-left: 0.5rem;
+}
