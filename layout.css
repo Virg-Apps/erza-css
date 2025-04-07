@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body > div > header {
+    display: flex;
+    top: 0;
+    height: 45px;
+    position: sticky;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+body > div > header #logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #2a3d1e;
+}
