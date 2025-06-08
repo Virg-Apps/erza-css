@@ -1,0 +1,35 @@
+.card {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid rgb(197, 203, 217);
+    border-radius: 10px;
+    box-shadow: rgba(51, 75, 255, 0.1) 0px 4.5px 9px 0px;
+}
+
+.message > div {
+    border-radius: 0 0 5px 5px;
+    padding: 0.5rem 1rem;
+}
+.message header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px 5px 0 0;
+}
+.message.success > div {
+    background-color: rgb(239, 250, 245);
+    color: rgb(28, 90, 62);
+}
+.message.success header {
+    background-color: rgb(72, 199, 142);
+    color: rgb(10, 31, 21);
+}
+.message.danger > div {
+    background-color: rgb(255, 235, 239);
+    color: rgb(204, 0, 41);
+}
+
+.message.danger header {
+    background-color: rgb(255, 0, 51);
+    color: rgb(26, 0, 5);
+}

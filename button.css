@@ -16,8 +16,10 @@ button {
 .button.primary {
     color: white;
 }
-.button.primary.outlined {
+.button.outlined {
     background-color: transparent;
+}
+.button.primary.outlined {
     transition: border-color 0.3s ease, color 0.3s ease;
 }
 .button.primary:not(.outlined):hover {

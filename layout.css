@@ -22,3 +22,13 @@ body > div > header #logo {
     font-size: 1.6rem;
     color: #2a3d1e;
 }
+
+main {
+    padding: 1rem;
+}
+
+.page-message .message {
+    display: block;
+    max-width: 600px;
+    margin : 0 auto;
+}
